@@ -1,0 +1,18 @@
+version: '3.1'
+services:
+  eg-test-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    container_name: eg-test-api
+    restart: on-failure
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    # volumes:
+    #   - :/usr/src/eg-test
+    command: npm run start:dev
+
+  

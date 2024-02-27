@@ -1,0 +1,13 @@
+{
+  "editor.fontFamily": "'Operator Mono Lig', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.tabSize": 2,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prisma.fileWatcher": true
+}
