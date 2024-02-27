@@ -120,7 +120,7 @@ Visit the url `http://localhost:5173` to view eg-test
 
 #### Component hierarchy for the frontend
 
-<img src="public/component-hierarchy.png" alt="component hierarchy" width="200" height="auto">
+<img src="public/component-hierarchy.png" alt="component hierarchy" width="400" height="auto">
 
 - The `Auth Context` is the center for all of the state management for the user auth in the FE app.
 - The root of the app is the `App` component that houses the auth and theme contexts as well the `Routes` component.
@@ -133,7 +133,7 @@ Visit the url `http://localhost:5173` to view eg-test
 
 #### Communication between Frontend and Backend
 
-<img src="public/communication.png" alt="communication diagram" width="200" height="auto">
+<img src="public/communication.png" alt="communication diagram" width="600" height="auto">
 
 - Initially when the user is not logged in and visits the app. The FE app makes request to `/me` endpoint to check if the user is logged in.
 - If the user is not logged in, (there are no cookies available), the server sends back 401 unauthorized. And frontend redirects the user to `/signup` page
